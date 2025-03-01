@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Interests Section */
+#interests ul {
+    list-style-type: none;
+}
+
+#interests ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Activities Section */
+#activities ul {
+    list-style-type: none;
+}
+
+#activities ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#activities ul li strong {
+    font-weight: bold;
+}
+
+/* Work Section */
+#work ul {
+    list-style-type: none;
+}
+
+#work ul li {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+#work h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#work p {
+    font-size: 1.1em;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #007BFF;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1em;
+}
